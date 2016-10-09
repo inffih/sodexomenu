@@ -1,0 +1,62 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <ion-nav-view name="menuContent">
+    </ion-nav-view>
+
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Asetukset</h1>
+    </ion-header-bar>
+    <ion-content>
+
+      <div class="list">
+
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Ravintola
+          </div>
+          <select>
+            <option>Dynamo</option>
+            <option>Rajakatu</option>
+            <option>Mitäs näitä nyt on</option>
+          </select>
+        </label>
+
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Näkymä
+          </div>
+          <select>
+            <option>Tänään</option>
+            <option>Koko viikko</option>
+          </select>
+        </label>
+
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Kieli
+          </div>
+          <select>
+            <option>Suomi</option>
+            <option>Englanti</option>
+          </select>
+        </label>
+
+      </div>
+
+
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
