@@ -6,7 +6,7 @@
 // 'starter.controllers' is found in controllers.js
 var app = angular.module('sodexomenu', ['ionic', 'sodexomenu.controllers'])
 
-.run(function($ionicPlatform) {
+app.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -26,16 +26,36 @@ var app = angular.module('sodexomenu', ['ionic', 'sodexomenu.controllers'])
   $stateProvider
 
     .state('app', {
-    url: '/app',
-    abstract: true,
-    templateUrl: 'templates/menu.html',
-    controller: 'AppCtrl'
-  })
+      url: '/app',
+      abstract: true,
+      templateUrl: 'templates/layout.html',
+      controller: 'AppCtrl'
+    })
+
+    .state('app.today', {
+      url: '/today',
+      views: {
+        'todayContent': {
+          templateUrl: 'templates/today.html',
+          controller: 'TodayCtrl'
+        }
+      }
+    })
+
+    .state('app.settings', {
+      url: '/settings',
+      views: {
+        'settingsContent': {
+          templateUrl: 'templates/settings.html',
+          controller: 'SettingsCtrl'
+        }
+      }
+    })
 
     .state('app.week', {
       url: '/week',
       views: {
-        'menuContent': {
+        'weekContent': {
           templateUrl: 'templates/week.html',
           controller: 'WeekCtrl'
         }
@@ -43,15 +63,16 @@ var app = angular.module('sodexomenu', ['ionic', 'sodexomenu.controllers'])
     })
 
     .state('app.weekday', {
-    url: '/week/:weekday',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/weekday.html',
-        controller: 'WeekdayCtrl'
+      url: '/week/:weekday',
+      views: {
+        'weekContent': {
+          templateUrl: 'templates/weekday.html',
+          controller: 'WeekdayCtrl'
+        }
       }
-    }
+    });
 
-  });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app');
+  $urlRouterProvider.otherwise('/app/today');
+
 });

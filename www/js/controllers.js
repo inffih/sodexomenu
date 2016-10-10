@@ -21,5 +21,13 @@ angular.module('sodexomenu.controllers', [])
   ];
 })
 
+.controller('TodayCtrl', function($scope) {
+
+})
+
+.controller('SettingsCtrl', function($scope) {
+
+})
+
 .controller('WeekdayCtrl', function($scope, $stateParams) {
 });
