@@ -1,5 +1,20 @@
-<ion-view view-title="Today">
-  <ion-content>
-    <h1>Tiistai</h1>
+<ion-view view-title="JAMK Ravintola Bittipannu, Dynamo">
+  <div class="bar bar-subheader">
+    <h2 class="title">Keskiviikko</h2>
+  </div>
+  <ion-content class="has-header has-subheader">
+    <ion-list ng-repeat="menuItem in menuData.courses">
+      <div class="card">
+        <div class="item item-divider">
+          {{menuItem.title_fi}}
+        </div>
+        <div class="item item-text-wrap">
+          <p>{{menuItem.category}}</p>
+          <p>{{menuItem.desc_fi}}</p>
+          <p>{{menuItem.price}}
+          {{menuItem.properties}}</p>
+        </div>
+      </div>
+    </ion-list>
   </ion-content>
 </ion-view>

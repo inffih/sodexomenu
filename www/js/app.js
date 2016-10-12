@@ -4,75 +4,74 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-var app = angular.module('sodexomenu', ['ionic', 'sodexomenu.controllers'])
-
-app.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-    // for form inputs)
-    if (window.cordova && window.cordova.plugins.Keyboard) {
-      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-      cordova.plugins.Keyboard.disableScroll(true);
-
-    }
-    if (window.StatusBar) {
-      // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
-    }
-  });
-})
-
-.config(function($stateProvider, $urlRouterProvider) {
-  $stateProvider
-
-    .state('app', {
-      url: '/app',
-      abstract: true,
-      templateUrl: 'templates/layout.html',
-      controller: 'AppCtrl'
-    })
-
-    .state('app.today', {
-      url: '/today',
-      views: {
-        'todayContent': {
-          templateUrl: 'templates/today.html',
-          controller: 'TodayCtrl'
-        }
+angular
+  .module('sodexomenu', ['ionic', 'sodexomenu.controllers', 'sodexomenu.services'])
+  .run(function($ionicPlatform) {
+    $ionicPlatform.ready(function() {
+      // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
+      // for form inputs)
+      if (window.cordova && window.cordova.plugins.Keyboard) {
+        cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+        cordova.plugins.Keyboard.disableScroll(true);
       }
-    })
-
-    .state('app.settings', {
-      url: '/settings',
-      views: {
-        'settingsContent': {
-          templateUrl: 'templates/settings.html',
-          controller: 'SettingsCtrl'
-        }
-      }
-    })
-
-    .state('app.week', {
-      url: '/week',
-      views: {
-        'weekContent': {
-          templateUrl: 'templates/week.html',
-          controller: 'WeekCtrl'
-        }
-      }
-    })
-
-    .state('app.weekday', {
-      url: '/week/:weekday',
-      views: {
-        'weekContent': {
-          templateUrl: 'templates/weekday.html',
-          controller: 'WeekdayCtrl'
-        }
+      if (window.StatusBar) {
+        // org.apache.cordova.statusbar required
+        StatusBar.styleDefault();
       }
     });
+  })
 
-  // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/today');
+  .config(function($stateProvider, $urlRouterProvider) {
+    $stateProvider
 
-});
+      .state('app', {
+        url: '/app',
+        abstract: true,
+        templateUrl: 'templates/layout.html',
+        controller: 'AppCtrl'
+      })
+
+      .state('app.today', {
+        url: '/today',
+        views: {
+          'todayContent': {
+            templateUrl: 'templates/today.html',
+            controller: 'TodayCtrl'
+          }
+        }
+      })
+
+      .state('app.settings', {
+        url: '/settings',
+        views: {
+          'settingsContent': {
+            templateUrl: 'templates/settings.html',
+            controller: 'SettingsCtrl'
+          }
+        }
+      })
+
+      .state('app.week', {
+        url: '/week',
+        views: {
+          'weekContent': {
+            templateUrl: 'templates/week.html',
+            controller: 'WeekCtrl'
+          }
+        }
+      })
+
+      .state('app.weekday', {
+        url: '/week/:weekday',
+        views: {
+          'weekContent': {
+            templateUrl: 'templates/weekday.html',
+            controller: 'WeekCtrl'
+          }
+        }
+      });
+
+    // if none of the above states are matched, use this as the fallback
+    $urlRouterProvider.otherwise('/app/today');
+
+  });
