@@ -3,16 +3,18 @@
     <h2 class="title">Keskiviikko</h2>
   </div>
   <ion-content class="has-header has-subheader">
-    <ion-list ng-repeat="menuItem in menuData.courses">
+    <ion-list ng-repeat="menuItem in menuData.tuesday">
       <div class="card">
-        <div class="item item-divider">
+        <div class="item item-divider item-text-wrap">
           {{menuItem.title_fi}}
         </div>
         <div class="item item-text-wrap">
-          <p>{{menuItem.category}}</p>
-          <p>{{menuItem.desc_fi}}</p>
-          <p>{{menuItem.price}}
-          {{menuItem.properties}}</p>
+          <div ng-hide='menuItem.desc_fi == ""' class="menuitem-label">
+            {{menuItem.desc_fi}}
+          </div>
+          <div ng-hide='menuItem.properties == ""' class="menuitem-label">
+            {{menuItem.properties}}
+          </div>
         </div>
       </div>
     </ion-list>

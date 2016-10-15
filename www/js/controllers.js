@@ -21,7 +21,7 @@ angular
 
   .controller('TodayCtrl', function($scope, Menus) {
     Menus.getMenus().success(function(response){
-        $scope.menuData = response;
+        $scope.menuData = response.menus;
         console.log($scope.menuData);
     });
   })

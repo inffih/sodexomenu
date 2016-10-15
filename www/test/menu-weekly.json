@@ -1,0 +1,294 @@
+{
+	"meta": {
+		"generated_timestamp": 1476553870,
+		"requested_timestamp": 1476478800,
+		"ref_url": "http:\/\/www.sodexo.fi\/jamk-dynamo",
+		"ref_title": "JAMK Ravintola Bittipannu \/ Dynamo"
+	},
+	"menus": {
+		"monday": [{
+			"title_fi": "Jauheliha-perunasoselaatikko",
+			"title_en": "Minced meat and mashed potato casserole",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Broilerpy\u00f6rykk\u00e4",
+			"title_en": "Chicken Balls",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "Currykastike, riisi",
+			"desc_en": "Curry sauce and rice",
+			"desc_se": ""
+		}, {
+			"title_fi": "Tomaatti-mozzarellavuoka",
+			"title_en": "Tomato and mozzarella casserole",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, VL",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Mustajuurisosekeitto",
+			"title_en": "Black salsify pur\u00e9 soup",
+			"price": "2,40 \/ 5,30 \/ 6,00",
+			"properties": "G, L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Maalaiskinkku",
+			"title_en": "Ham",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Kalkkuna-appelsiiniwrap",
+			"title_en": "Wrap with turkey and orange filling",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Marjasalaatti",
+			"title_en": "Berry salad",
+			"price": "1,00 \/ 1,20",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}],
+		"tuesday": [{
+			"title_fi": "Kinkkukastike",
+			"title_en": "Ham sauce ",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "Pasta",
+			"desc_en": "Pasta",
+			"desc_se": ""
+		}, {
+			"title_fi": "Rapea tandoorikala",
+			"title_en": "Crispy tandoori fish",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "Raita, riisi",
+			"desc_en": "Stripe and rice",
+			"desc_se": ""
+		}, {
+			"title_fi": "Kikhernekorma",
+			"title_en": "Korma Garbanzo",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Kookos-sienikeitto Tom Kha Gai",
+			"title_en": "Coconut mushroom soup Tom Kha Gai",
+			"price": "2,40 \/ 5,30 \/ 6,00",
+			"properties": "M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Tofu",
+			"title_en": "Tofu",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Patonki kolmella juustolla",
+			"title_en": "Baguette filled with three kinds of cheese",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Paistettua ananasta",
+			"title_en": "Baked pineapple",
+			"price": "1,00 \/ 1,20",
+			"properties": "G, L",
+			"desc_fi": "Jogurttia, lime\u00e4 ja mangochutneyt\u00e4",
+			"desc_en": "Yoghurt, lime and mango chutney",
+			"desc_se": ""
+		}],
+		"wednesday": [{
+			"title_fi": "Pippurinen possupata",
+			"title_en": "Pepper flavoured pork stew",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "Peruna",
+			"desc_en": "Potato",
+			"desc_se": ""
+		}, {
+			"title_fi": "Korianterilla maustettua Swahili-kanaa",
+			"title_en": "Swahili chicken with coriander",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "Riisi",
+			"desc_en": "Rice",
+			"desc_se": ""
+		}, {
+			"title_fi": "Marokkolainen kasvish\u00f6yst\u00f6",
+			"title_en": "Moroccan vegetable stew",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "Couscous",
+			"desc_en": "Couscous",
+			"desc_se": ""
+		}, {
+			"title_fi": "Bataatti-maissikeitto",
+			"title_en": "Sweet potato and corn soup",
+			"price": "2,40 \/ 5,30 \/ 6,00",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Kolme juustoa",
+			"title_en": "Three kinds of cheese",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Moniviljas\u00e4mpyl\u00e4 salami-melonit\u00e4ytteell\u00e4",
+			"title_en": "Multigrain roll filled with salami and melon",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Aprikoosi-luumukombotti",
+			"title_en": "Apricot and plum combote",
+			"price": "1,00 \/ 1,20",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}],
+		"thursday": [{
+			"title_fi": "Lindstr\u00f6minpihvit",
+			"title_en": "Lindstr\u00f6m\u00b4s minced meat steaks",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "M",
+			"desc_fi": "Ruskea kastike, peruna",
+			"desc_en": "Brown sauce, potatoes",
+			"desc_se": ""
+		}, {
+			"title_fi": "Tortilla jamakalaiseen tapaan",
+			"title_en": "Jamaican patties",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Uuniperuna",
+			"title_en": "Baked potato",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, L",
+			"desc_fi": "Cheddar-jalapenot\u00e4yte",
+			"desc_en": "Cheddar and jalapeno filling",
+			"desc_se": ""
+		}, {
+			"title_fi": "Port royal-keitto",
+			"title_en": "Port royal soup",
+			"price": "2,40 \/ 5,30 \/ 6,00",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Broileri",
+			"title_en": "Chicken",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Savuporo ciabatta",
+			"title_en": "Ciabatta with smoked reindeer filling",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Paitettua omenaa",
+			"title_en": "Baked apple",
+			"price": "1,00 \/ 1,20",
+			"properties": "L",
+			"desc_fi": "Kermavaahtoa ja crumblea",
+			"desc_en": "Whipped cream and crumble",
+			"desc_se": ""
+		}],
+		"friday": [{
+			"title_fi": "Broilerinkoipi",
+			"title_en": "Chicken legs",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, L",
+			"desc_fi": "Kermainen bbq-kastike, riisi",
+			"desc_en": "Creamy bbq-sauce, rice",
+			"desc_se": ""
+		}, {
+			"title_fi": "Tomaattinen bratwurstikeitto",
+			"title_en": "Tomato and bratwurst soup",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Kasvispaella",
+			"title_en": "Vegetable paella",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, M",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Palsternakkasosekeitto",
+			"title_en": "Parsnip pur\u00e9 soup",
+			"price": "2,40 \/ 5,30 \/ 6,00",
+			"properties": "G, L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Salaattijuusto",
+			"title_en": "Salad cheese",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "G, VL",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Katkarapupatonki",
+			"title_en": "Baguette with shrimp filling",
+			"price": "2,60 \/ 6,30 \/ 6,95",
+			"properties": "L",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}, {
+			"title_fi": "Suklaak\u00e4\u00e4retorttu",
+			"title_en": "Chocolate swiss roll",
+			"price": "1,00 \/ 1,20",
+			"desc_fi": "",
+			"desc_en": "",
+			"desc_se": ""
+		}]
+	}
+}
