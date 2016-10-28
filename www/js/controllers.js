@@ -26,10 +26,41 @@ angular
   })
 
   .controller('TodayCtrl', function($scope, Menus) {
+
+    // console.log(date.getDate());
+    // console.log(date.getFullYear());
+    // console.log(date.getMonth() + 1);
+
+    var day;
+    switch (new Date().getDay()) {
+    case 0:
+        day = "sunday";
+        break;
+    case 1:
+        day = "monday";
+        break;
+    case 2:
+        day = "tuesday";
+        break;
+    case 3:
+        day = "wednesday";
+        break;
+    case 4:
+        day = "thursday";
+        break;
+    case 5:
+        day = "friday";
+        break;
+    case 6:
+        day = "saturday";
+}
+
+    $scope.currentDay = day;
     Menus.getMenus().success(function(response){
         $scope.menuData = response.menus;
         console.log($scope.menuData);
     });
+
   })
 
   .controller('SettingsCtrl', function($scope) {
