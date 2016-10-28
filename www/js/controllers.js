@@ -1,5 +1,11 @@
 angular
   .module('sodexomenu.controllers', [])
+  .filter('priceFilter', function(){
+    return function(prices) {
+      var replaced = prices.replace(/[ ]\//g, "€");
+      return replaced;
+    }
+  })
   .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
     // With the new view caching in Ionic, Controllers are only called
     // when they are recreated or on app start, instead of every page change.

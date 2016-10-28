@@ -15,6 +15,9 @@
           <div ng-hide='menuItem.properties == ""' class="menuitem-label">
             {{menuItem.properties}}
           </div>
+          <div ng-hide='menuItem.price == ""' class="menuitem-label">
+            {{(menuItem.price | priceFilter) + "€"}}
+          </div>
         </div>
       </div>
     </ion-list>

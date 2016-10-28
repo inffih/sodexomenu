@@ -9821,7 +9821,8 @@ a.button {
 .menuitem-label {
   border: 1px solid #dfdfdf;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 7px;
+  margin-bottom: 10px;
   background-color: #f8f8f8;
   padding: 4px 7px;
   border-radius: 10px; }
