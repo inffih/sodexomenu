@@ -49,26 +49,6 @@ angular
             controller: 'SettingsCtrl'
           }
         }
-      })
-
-      .state('app.week', {
-        url: '/week',
-        views: {
-          'weekContent': {
-            templateUrl: 'templates/week.html',
-            controller: 'WeekCtrl'
-          }
-        }
-      })
-
-      .state('app.weekday', {
-        url: '/week/:weekday',
-        views: {
-          'weekContent': {
-            templateUrl: 'templates/weekday.html',
-            controller: 'WeekCtrl'
-          }
-        }
       });
 
     // if none of the above states are matched, use this as the fallback

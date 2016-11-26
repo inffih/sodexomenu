@@ -1,14 +1,17 @@
-<ion-view view-title="JAMK Ravintola Bittipannu, Dynamo">
+<ion-view view-title="{{restaurantName}}">
   <div class="bar bar-subheader">
     <h2 class="title">Tänään</h2>
   </div>
   <ion-content class="has-header has-subheader">
-    <ion-list ng-repeat="menuItem in menuData.tuesday">
+    <ion-list ng-repeat="menuItem in menuData">
       <div class="card">
         <div class="item item-divider item-text-wrap">
-          {{menuItem.title_fi}}
+          {{menuItem.category}}
         </div>
         <div class="item item-text-wrap">
+          <div ng-hide='menuItem.title_fi == ""' class="menuitem-label">
+            {{menuItem.title_fi}}
+          </div>
           <div ng-hide='menuItem.desc_fi == ""' class="menuitem-label">
             {{menuItem.desc_fi}}
           </div>
@@ -21,5 +24,25 @@
         </div>
       </div>
     </ion-list>
+
+    <div class="card">
+      <div class="item item-text-wrap">
+        <ul class="padding-bottom">
+          <li class="muted-text">G = Gluteeniton</li>
+          <li class="muted-text">M = Maidoton</li>
+          <li class="muted-text">L = Laktoositon</li>
+          <li class="muted-text">VL = Vähälaktoosinen</li>
+        </ul>
+        <p>
+          Katso aukioloajat ja lisätiedot <a href="{{restaurantUrl}}" target="_blank">Racintolan kotisivuilta</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="item item-text-wrap">
+      </div>
+    </div>
+
   </ion-content>
 </ion-view>

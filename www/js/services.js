@@ -3,7 +3,7 @@ angular
   .factory('Menus', function($http) {
     var obj = {};
     obj.getMenus = function(){
-      return $http.get('/test/menu-weekly.json');
+      return $http.get('/test/menu.json');
     }
     return obj;
   });

@@ -9816,13 +9816,18 @@ a.button {
   transition-duration: 0s; }
 
 .card {
-  margin-bottom: 2px !important; }
+  margin-bottom: 2px !important;
+}
 
 .menuitem-label {
-  border: 1px solid #dfdfdf;
-  display: inline-block;
-  margin-right: 7px;
-  margin-bottom: 10px;
-  background-color: #f8f8f8;
+  /*border: 1px solid #dfdfdf;*/
+  display: block;
+  margin: 0px;
+  /* background-color: #f8f8f8; */
   padding: 4px 7px;
   border-radius: 10px; }
+
+.muted-text {
+  color: #666;
+  font-size: 14px;
+}
